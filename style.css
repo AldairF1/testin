@@ -1,4 +1,8 @@
 h1 {
-  color: pink;
   text-align: center;
+  background: linear-gradient(magenta,red);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, .2);
+  text-decoration: underline;
 }
